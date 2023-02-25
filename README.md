@@ -4,7 +4,6 @@ dotfiles
  - oh-my-zsh
 
 ## Setup
-copy .zshrc to ~/
 
 install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -12,3 +11,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 install zsh-autosuggestions
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+copy .zshrc to ~/.zshrc
